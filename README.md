@@ -2,6 +2,9 @@
 http://www.multiwii.com/wiki/index.php?title=Main_Page
 Drone utilizando MultiWii como base de prototipação
 
+Código para o drone se encontra em MultiWii_2_3.zip/MultiWii/config.h
+(Abra na IDE Arduino e compile no Arduino Nano)
+
 Configuração da disposição dos motores no frame
 
 ![alt text](https://github.com/lhcbernardes/DroneMultiWii/blob/master/Esquema%20drone.jpg)
