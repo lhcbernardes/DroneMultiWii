@@ -3,7 +3,7 @@ Drone utilizando MultiWii como base de prototipação
 
 Configuração da disposição dos motores no frame
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/lhcbernardes/DroneMultiWii/blob/master/Esquema%20drone.jpg)
 
 *Caso for utilzar o receptor semelhante ao Receptor Flysky utilizar a seguinte configuração:
 
@@ -45,9 +45,22 @@ RECEPTOR
 
 Com outro Arduino reserve a porta D2 para conectar no Arduino controlador de voo do drone
 Segue a imagem da configuração do NRF24
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/lhcbernardes/DroneMultiWii/blob/master/NRF.jpg)
 
 CONTROLE
+
+Tendo o conhecimento que um joystick semelhante ao encontrado em video-games seja o conjunto de potenciomentros (X e Y)
+o controle sera composto por dois joysticks, dois switches, um Arduino e NRF24.
+
+O joystick esquerdo utilizara as portas A0 e A1
+O joystick direito utilizara as portas A2 e A3
+
+Os switches D4 e D5
+
+A configuração do NRF24 segue a da imagem
+![alt text](https://github.com/lhcbernardes/DroneMultiWii/blob/master/NRF.jpg)
+
+
 
 
 
